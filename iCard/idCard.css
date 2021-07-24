@@ -1,0 +1,40 @@
+
+
+.shape{
+    height:120 px;
+    width:50%;
+    display: flex;
+    /* border-radius: 100px; */
+    background-color:dodgerblue;
+    color:maroon;
+    flex-direction: column;
+}
+#underhead{
+    display: flex;
+    flex-direction: row;
+}
+ .line{
+     display: flex;
+    /* width: 50%; */
+    /* display: inline; */
+}
+.written{
+    display:flex;
+    flex-direction: column;
+    /* width: 60%; */
+}
+.same-line{
+    display: flex;
+    /* display:inline-block; */
+}
+#heading{
+    background-color: orangered;
+    text-align: center;
+}
+.id_pic{
+    display: flex;
+    height: 100px ;
+    width:100px;
+    border-radius: 4px;
+    background-color: aliceblue;
+}
