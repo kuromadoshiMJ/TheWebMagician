@@ -1,0 +1,122 @@
+body{
+ background-color: rgb(230,230,230);
+}
+/* header{
+ background-color: rgb(6, 8, 107);
+} */
+
+#title{
+ display: flex;
+ flex-direction: row;
+ background-color: rgb(6, 8, 107); 
+ color: azure;
+ /* text-align: center; */
+  height:120px;
+}
+#navigation{
+  background-color:rgb(161, 162, 219) ;
+  /* color:azure; */
+  text-align: center;
+}
+#startupkgp{
+ text-align:center ;
+ /* background-color: blueviolet; */
+  transform: translate(650px,-20px); 
+}
+
+#personalinfo{
+ display: flex;
+ flex-direction: row;
+ background-color: rgb(255,255,255);
+ height:400px;
+ width:1400px;
+ transform: translate(200px,30px);
+ border-radius: 15px;
+ 
+}
+.col1{
+ width: 45%;
+ padding:25px;
+ /* background-color: blue; */
+}
+.col2{
+ padding:25px;
+ /* height:600px; */
+}
+/* #name{
+ transform: translate(20px,-10px);
+} */
+#aname{
+ transform: translate(20px);
+}
+#city{
+ transform: translate(18px);
+}
+#state{
+ transform: translate(140px);
+ /* height: 150px; */
+}
+#phone{
+ transform: translate(140px);
+}
+.boxsize{
+ height: 100px;
+}
+#fname{
+ transform: translate(97px);
+}
+#district{
+ transform: translate(170px);
+}
+#startupinfo{
+ display: flex;
+ flex-direction: row;
+ background-color: rgb(255,255,255);
+ height:500px;
+ width:1400px;
+ transform: translate(200px,60px);
+ border-radius: 15px;
+ 
+}
+.choice{
+ /* color: red; */
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 18px;
+ background-color: rgb(200,200,200);
+ /* translate */
+}
+#personalpart2{
+  width: 600px;
+}
+#idea{
+ height:365px;
+ width:600px;
+}
+#submission{
+ 
+ background-color: rgb(255,255,255);
+ height:100px;
+ width:1360px;
+ padding:20px;
+ transform: translate(200px,90px);
+ border-radius: 15px;
+}
+#dec{
+ font-size: 15px;
+}
+#submit{
+ transform: translate(650px,2px);
+ height: 40px;
+ width: 90px;
+}
+#footer{
+  transform: translate(0px,120px);
+  text-align: center;
+  background-color: rgb(161, 162, 219);
+  /* color:azure; */
+  height: 65px;
+  padding:25px;
+}
+#note{
+  font-size: 15px;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+   
+    <head>
+        <title>Startup Form</title>
+        <link rel="stylesheet" href="css/form.css">
+    </head>
+    <body>
+        <header id=top>
+            <div id="title">
+            <div id="ittlogo">
+                <img src="iitkgp.jpeg" alt="iitkgp logo" height="100px" width="100px">
+            </div>
+            <div id="startupkgp"><h1>STARTUP KGP</h1>
+            <p>An initiative by IIT KGP and MHRD</p>
+            </div>
+            </div>
+            
+            <nav id="navigation">
+                <a href="">Home</a>|
+                <a href="">Resources</a>|
+                <a href="">Scheme&Policies</a>|
+                <a href="">Programs</a>|
+            </nav>
+        </header>
+        <div id="personalinfo">
+            
+            <div class="col1">
+                <fieldset>
+                <legend style="font-size:15px;"><i><b>Personal Info</b></i></legend>
+                <form>
+                    <!--name ,father's name , city ,district,State, -->
+                    Applicant's Name:
+                    <input id="aname" type="text" placeholder="Your Name">
+                    <br><br>City/Town/Village:
+                    <input id="city" type="text" placeholder="City/Town/Village">
+                    <br><br>State:
+                    <input id="state" type="text" placeholder="State">
+                    <br><br><br>Permanent address:
+                    <input id="paddress" class="boxsize" type="text" placeholder="Address of your residence">
+                </form>
+                </fieldset>
+            </div>
+            <div class="col2" id="personalpart2">
+                <fieldset>
+                    <legend style="font-size:15px;"><i><b>Personal Info</b></i></legend>
+                <form id="personalpart2">
+                    Father's Name:
+                    <input id="fname" type="text" placeholder="Father's Name">
+                    <br><br>District:
+                    <input id="district" type="text" placeholder="District">
+                    <br><br>Phone No.:
+                    <input id="phone" type="text" placeholder="Phone">
+                    <br><br><br>Corrospondance Adress:
+                    <input id="caddress" class="boxsize" type="text" placeholder="Leave if same as Permanent Adress">
+                </form>
+                </fieldset>
+            
+            </div>
+       
+        </div>
+        <div id="startupinfo">
+            <div class="col1">
+                <fieldset>
+                <legend style="font-size:15px;"><i><b>Institute Info</b></i></legend>
+                <form>
+                    Startup Name:
+                    <input id="startupname" type="text" placeholder="Name of startup">
+                    <br><br>
+                    Founder Roll No:
+                    <input id="rollno" type="text" placeholder="Enter your Institute Roll No:">
+                    <br><br>
+                    Department:
+                    <input id="dept" type="text" placeholder="Your Institute Department">
+                    <br><br>Founder Name:
+                    <input id="foundername" type="text" placeholder="Name of Fonunder">
+                    <br><br>
+                    Stage of Startup:<br>
+                    <label for="stage1" class="choice">
+                    <input id="stage1" type="radio" value="1"  name="stage">Stage1</label>
+                    <label for="stage2" class="choice">
+                    <input id="stage2" type="radio" value="2"  name="stage">Stage2</label>
+                    <label for="stage3" class="choice">
+                        <input id="stage3" type="radio" value="3" name="stage">Stage3</label>
+                    <label for="stage4" class="choice">
+                        <input id="stage4" type="radio" value="4" name="stage">Stage4</label>
+                    <br><br>You need Help with:<br>
+                    <br><label for="techhelp" class="choice">
+                    <input id="techhelp" type="checkbox" name="help">Technical support</label>
+                    <br><label for="funding" class="choice">
+                    <input id="funding" type="checkbox" name="help">Financial Support</label>  
+                    <br><label for="ads" class="choice">
+                    <input id="ads" type="checkbox" name="help">Advertisment</label>
+                    
+                    </form>
+                    </fieldset>
+            </div>
+            <div class="col2">
+                <fieldset>
+                <legend style="font-size:15px;"><i><b>Startup Info</b></i></legend>
+                <form>
+                    Your Startup Idea:<br>
+                    <input id="idea" type="input" placeholder="Describe your startup idea in about 1000 words">
+                </form>
+            </fieldset>
+            </div>
+        </div>
+        <div id= "submission">
+            <fieldset>
+                <form >
+                    <label for="declaration" id="dec">
+                    <input id="delcaration" type="checkbox" name="declaration"><b>The information filled by me are correct to best of my knowledge</b></label>
+                    <button id="submit" type="submit">Sumbit</button>
+                </form>
+            </fieldset>
+        </div>
+
+            
+        <footer id="footer">
+            <nav>
+                <a href="">Privacy Policy</a>|
+                <a href="">Terms of Use</a>|
+                <a href="">Copy right 2021 Government of India</a>
+            </nav>
+            <p id="note"><b>Best viewed in firefox|Developed by Mohhit Kumar Jha</b></p>
+        </footer>    
+        
+    </body>
+</html>
