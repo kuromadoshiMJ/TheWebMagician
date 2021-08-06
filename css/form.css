@@ -4,7 +4,9 @@ body{
 /* header{
  background-color: rgb(6, 8, 107);
 } */
-
+#top{
+  background-color: brown;
+}
 #title{
  display: flex;
  flex-direction: row;
