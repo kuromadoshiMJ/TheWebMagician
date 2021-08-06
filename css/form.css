@@ -11,26 +11,31 @@ body{
  background-color: rgb(6, 8, 107); 
  color: azure;
  /* text-align: center; */
-  height:120px;
+  height:15vh;
 }
 #navigation{
   background-color:rgb(161, 162, 219) ;
   /* color:azure; */
   text-align: center;
 }
+#iitlogo{
+  width:5vw;
+}
 #startupkgp{
- text-align:center ;
- /* background-color: blueviolet; */
-  transform: translate(650px,-20px); 
+  text-align:center ;
+  width: 90vw;
+ /* background-color: blueviolet;  */
+  justify-content: center;
 }
 
 #personalinfo{
  display: flex;
  flex-direction: row;
+ margin: auto;
  background-color: rgb(255,255,255);
  height:400px;
  width:1400px;
- transform: translate(200px,30px);
+  transform: translate(0px,30px); 
  border-radius: 15px;
  
 }
@@ -74,7 +79,8 @@ body{
  background-color: rgb(255,255,255);
  height:500px;
  width:1400px;
- transform: translate(200px,60px);
+ margin:auto;
+ transform: translate(0px,60px); 
  border-radius: 15px;
  
 }
@@ -98,7 +104,8 @@ body{
  height:100px;
  width:1360px;
  padding:20px;
- transform: translate(200px,90px);
+ margin:auto;
+ transform: translate(0px,90px); 
  border-radius: 15px;
 }
 #dec{
