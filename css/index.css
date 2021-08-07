@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(6, 8, 107);
+    color: rgb(211, 221, 230);
+}
+body{
+     overflow-x:hidden;  
+}
+.navlink{
+    display: flex;
+    justify-content: space-around;
+    position:absolute;
+    right: 0px;
+    top:10vh;
+    width: 20%;
+    height: 90vh;
+    color:aliceblue;
+    text-decoration: none;
+    background-color: rgb(6, 8, 107);
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+.navlink a{
+    color:aliceblue;
+}
+.burger{
+    cursor: pointer;
+}
+.burger div{
+    background-color: aliceblue;
+    width: 25px;
+    height: 2px;
+    margin:5px ;
+
+}
+.nav-active{
+    transform: translateX(0);
+}

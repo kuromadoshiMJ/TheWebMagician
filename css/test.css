@@ -1,0 +1,9 @@
+#box{
+    height:400px;
+    width: 1400px;
+    background-color: aquamarine;
+    transform: translate(1000px);
+}
+#top{
+    background-color: blue;
+}
