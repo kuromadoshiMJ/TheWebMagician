@@ -3,16 +3,74 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url('https://i.pinimg.com/originals/60/5e/1f/605e1ff43be5659656fdf1d8c9ba06e5.jpg');
+    /* align-items: center;  */
+    overflow-x:hidden;
+}
+.front-card{
+    height: 60vh;
+    width: 60vw;
+    background-color: white; 
+    border-color: rgb(99, 96, 96);
+    border-style: solid;
+    border-radius: 5px;
+    align-items: center;
+    position:absolute;
+    left:50%;
+    top:50%; 
+    transform:translate(-50%,-40%) ;
+    box-shadow: 5px 5px 10px 5px rgb(99, 99, 100);
+}
+.coderinfo{
+    /* background-color: white; */
+     /* font-family: 'Courier New', Courier, monospace;  */
+    max-width: 500px;
+    border-radius: 20px;
+    position: absolute;
+    right:50%;
+    top:50%;
+    text-align:  center;
+    box-shadow: 5px 5px 5px 5px rgb(100,100,100);
+}
+/* .coderinfo h1{
+    font-family: 'Poppins', sans-serif;
+} */
+.coderinfo h1{
+    font-size: 75px;
+}
+.coderinfo h4{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    position:absolute;
+    right: 10%;
+    top:15%;
+    border-radius: 100%;
+    background-image: radial-gradient(yellow,red);
+}
+.circle2{
+    height: 200px;
+    width: 200px;
+    position:absolute;
+    right: 15%;
+    top:10%;
+    border-radius: 100%;
+    background-color: white;
+    border-style: solid;
+}
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 10vh;
-    background-color: rgb(6, 8, 107);
-    color: rgb(211, 221, 230);
-}
-body{
-     overflow-x:hidden;  
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm_EZyUtH2RPE2shCNtoQH8UaAehTDeadZoctfxRJM9w43l4onF0DiBdXHp0jOIxT0Emo&usqp=CAU'); */
+    background-image: linear-gradient(to left, violet,rgb(125, 45, 182),rgb(72, 72, 255),rgb(38, 202, 38),yellow,orange,rgb(245, 73, 73));
+    color: rgb(255, 255, 255);
 }
 .navlink{
     display: flex;
@@ -24,7 +82,8 @@ body{
     height: 90vh;
     color:aliceblue;
     text-decoration: none;
-    background-color: rgb(6, 8, 107);
+    /* background-color: rgb(6, 8, 107); */
+    background-image: linear-gradient(to bottom,violet,indigo,blue);
     flex-direction: column;
     align-items: center;
     transform: translateX(100%);
